@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/map-maker.svg";
+import logo from "../images/map-marker.svg";
 import { Link } from "react-router-dom";
 import { FiPlus, FiArrowRight } from "react-icons/fi";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
@@ -43,14 +43,14 @@ function OrphanagesMap() {
             className="map-popup"
           >
             Lar das meninas
-            <Link to="#">
+            <Link to="/orphanages/1">
               <FiArrowRight size={20} color="#FFF" />
             </Link>
           </Popup>
         </Marker>
       </Map>
 
-      <Link to="" className="create-orphanage">
+      <Link to="/orphanages/create" className="create-orphanage">
         <FiPlus size={22} color="white"></FiPlus>
       </Link>
     </div>
