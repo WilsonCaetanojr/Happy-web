@@ -24,6 +24,7 @@ function OrphanagesMap() {
     };
     getData();
   }, []);
+
   return (
     <div id="page-map">
       <aside>
