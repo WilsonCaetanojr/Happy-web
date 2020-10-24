@@ -17,7 +17,7 @@ export default function Map({
 }: MapProps) {
   return (
     <LeafletMap
-      center={[-27.2092052, -49.6401092]}
+      center={[-22.7370332, -47.3725008]}
       zoom={15}
       style={{ width: "100%", height: "100%" }}
       dragging={interactive}

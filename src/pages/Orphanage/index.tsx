@@ -1,7 +1,7 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiClock, FiInfo } from "react-icons/fi";
-import { Marker, TileLayer } from "react-leaflet";
+import { Marker } from "react-leaflet";
 import L from "leaflet";
 
 import mapMarkerImg from "../../images/map-marker.svg";
@@ -81,14 +81,14 @@ export default function Orphanage() {
             <div className="map-container">
               <Map
                 interactive={false}
-                center={[-27.2092052, -49.6401092]}
+                center={[-22.7370332, -47.3725008]}
                 zoom={16}
                 style={{ width: "100%", height: 280 }}
               >
                 <Marker
                   interactive={false}
                   icon={happyMapIcon}
-                  position={[-27.2092052, -49.6401092]}
+                  position={[-22.7370332, -47.3725008]}
                 />
               </Map>
 

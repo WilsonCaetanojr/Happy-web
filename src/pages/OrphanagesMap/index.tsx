@@ -29,13 +29,13 @@ export default function OrphanagesMap() {
         </header>
 
         <footer>
-          <strong>Rio do Sul</strong>
-          <span>Santa Catarina</span>
+          <strong>Americana</strong>
+          <span>São Paulo</span>
         </footer>
       </aside>
 
       <Map>
-        <Marker icon={happyMapIcon} position={[-27.2092052, -49.6401092]}>
+        <Marker icon={happyMapIcon} position={[-22.7370332, -47.3725008]}>
           <Popup
             closeButton={false}
             minWidth={240}
@@ -56,5 +56,3 @@ export default function OrphanagesMap() {
     </div>
   );
 }
-
-// return `https://a.tile.openstreetmap.org/${z}/${x}/${y}.png`;

@@ -1,11 +1,14 @@
-import React from "react";
-import "./styles/pages/landing.css";
-import logo from "./images/logo.svg";
-import { FiArrowDownRight } from "react-icons/fi";
-import Routes from "./routes";
+import React from 'react';
+import Routes from './routes';
 
-function App() {
-  return <Routes />;
+import 'leaflet/dist/leaflet.css';
+import './styles/global.css';
+
+export default function App() {
+  return (
+    <div className="App">
+      <Routes />
+    </div>
+  );
 }
 
-export default App;
